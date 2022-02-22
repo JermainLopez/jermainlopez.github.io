@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header, footer {
+background: #003566;
+border-radius: 15px;
+
+}
+#title {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+
+}
+header p{
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: #ffc300;
+}
+body {
+    font-family: sans-serif, "Times New Roman", serif;
+    font-size: 1.1em;
+    background: linear-gradient(45deg, #000814, white, black);
+    margin: 0;
+    background-attachment: fixed;
+  }
+#father-box {
+    max-width: 940px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: brightness(120%);
+    border-radius: 25px;
+
+  }
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+footer p{
+  height: 40px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #ffc300;
+}
+footer a{
+  color: white;
+}
+#porfile{
+  float: right;
+  padding: 10px;
+  border-radius: 25px;
+}

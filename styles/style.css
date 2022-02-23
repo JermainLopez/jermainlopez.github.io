@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@media screen and (max-width: 768px) {
+  #father-box {
+    grid-template-areas:
+      "header header header";
+  }
+  header{
+    grid-column: 1/-1;
+    grid-area: "header";
+  }
+}
 header, footer {
 background: #003566;
 border-radius: 15px;

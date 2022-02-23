@@ -39,6 +39,8 @@ body {
   padding: 0;
   margin: 20px auto 0 auto;
 }
+  
+
 footer p{
   height: 40px;
   text-align: left;
@@ -59,4 +61,13 @@ footer a{
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+}
+span{
+  font-weight: 700;
+}
+#currentdate{
+  color: #ffc300;
+}
+#hola{
+  color: #ffc300;
 }

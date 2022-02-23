@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@media screen and (max-width: 768px) {
+  #father-box {
+    margin: auto;
+    display: inline-grid;
+    padding: auto;
+  }
+}
 header, footer {
 background: #003566;
 border-radius: 15px;
@@ -46,11 +52,13 @@ footer p{
   text-align: left;
   padding-top: 30px;
   padding-left: 30px;
+  padding-right: 30px;
   color: #ffc300;
 }
 footer a{
   color: white;
 }
+
 #porfile{
   float: right;
   padding: 10px;

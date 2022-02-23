@@ -1,25 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@media screen and (max-width: 768px) {
-  #father-box {
-    grid-template-areas:
-      "header header header";
-  }
-  header{
-    grid-column: 1/-1;
-    grid-area: "header";
-  }
-}
+
 header, footer {
 background: #003566;
 border-radius: 15px;
 
 }
-#title {
+h1 {
     font-family: 'Anton', sans-serif;
     font-size: xx-large;
 
 }
-header p{
+header h1{
   height: 100px;
   font-size: 50px;
   text-align: center;
@@ -65,18 +56,14 @@ footer a{
   padding: 10px;
   border-radius: 25px;
   width: 300px;
-  height: 400px;
+  height: 350px;
 }
-h1{
+h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
-span{
-  font-weight: 700;
-}
-#currentdate{
-  color: #ffc300;
-}
+
+
 #hola{
   color: #ffc300;
 }

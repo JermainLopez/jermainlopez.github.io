@@ -86,3 +86,10 @@ a:visited {
 a:hover {
   color: #0993ca;
 }
+footer a:link,
+footer a:visited {
+        color: #faf8f8;
+      }
+footer a:hover {
+        color: #f8cd0c;
+      }

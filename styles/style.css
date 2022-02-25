@@ -75,3 +75,14 @@ h2{
 #hola{
   color: #ffc300;
 }
+a {
+  padding: 1em;
+  min-width: 70px;
+}
+a:link,
+a:visited {
+  color: #faf8f8;
+}
+a:hover {
+  color: #f8cd0c;
+}

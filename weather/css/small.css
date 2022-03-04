@@ -1,0 +1,140 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* Small/Phone View ***************/
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #001D3D;
+}
+nav a:visited {
+	color: #FFC300;
+	}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "⛅";
+}
+
+.navigation a:hover {
+	color: #001D3D;
+	background-color: #FFD60A;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	#father-box .header{
+		display: block;
+	}
+}
+
+
+body {
+    font-family: sans-serif, "Times New Roman", serif;
+    font-size: 1.1em;
+    background: linear-gradient(45deg, #000814, white, black);
+    margin: 0;
+    background-attachment: fixed;
+  }
+
+#father-box {
+    max-width: 1000px;
+	border-radius: 15px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: brightness(120%);
+
+    }
+#headerBox{
+	width: 90%;
+	display: flex;
+	height: 90%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#logo{
+	background-color: #a2d6f9;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 25px;
+}
+
+
+#siteName{
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;;
+}
+footer a:link,
+footer a:visited {
+        color: #faf8f8;
+      }
+footer a:hover {
+        color: #f8cd0c;
+      }
+footer p{
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+	color: #ffc300;
+}
+
+header, footer {
+	width: auto;
+	height: auto;
+	background: #000814;
+	border-radius: 15px;
+	}
+.yellow{
+	color: #ffc300;
+}

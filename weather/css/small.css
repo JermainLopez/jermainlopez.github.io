@@ -54,7 +54,7 @@ nav a:visited {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 768px) {
 	.navigation {
 		display: flex;
 	}
@@ -72,7 +72,7 @@ nav a:visited {
 		display: inline-block;
 	}
 }
-@media screen and (max-width: 32.5em) {
+@media screen and (max-width: 768px) {
 	main .banner-box{
 		width: 25em;
 		margin: 0;

@@ -14,11 +14,13 @@ main{
 }
 
 .preston-title{
+    width: auto;
     grid-area: preston-title;
     padding-left: 100px;
     padding-right: 100px;
 }
 .banner-box{
+    width: auto;
     grid-area: banner-box;
     padding-left: 100px;
     padding-right: 100px;
@@ -54,9 +56,13 @@ main{
     display: block;
 }
 .preston-par {
+    margin: 30px;
+    padding: 30px;
     font-family: Georgia, serif;
     font-size: 25px;
     margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .action2{
     width: 100px;
@@ -66,12 +72,13 @@ main{
     grid-row: 1/2;
     background: #001D3D;
     backdrop-filter: blur(5px);
-    margin: auto;
-    padding: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
     text-align: center;
     border-radius: 25px;
 }
 #banner-image{
+    width: auto;
     grid-area: banner-image;
 }
 h1, h3{

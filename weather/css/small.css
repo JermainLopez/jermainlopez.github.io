@@ -108,13 +108,24 @@ nav a:visited {
 	main .imagePreston{
 		width:  25em;
 	}
+	header #headerBox{
+		width:  auto;
 
-
-
-	
-
-
-	
+	}
+	main #banner-image{
+		width: 90%;
+		margin: auto;
+	}
+	main .preston-par{
+		width: auto;
+		margin: auto;
+		margin-top: 80px;
+	}
+	main .preston-title{
+		width: auto;
+		margin: auto;
+		font-size: larger;
+	}
 
 }
 
@@ -178,13 +189,15 @@ header, footer {
 	border-radius: 15px;
 	}
 .yellow{
+	width: auto;
 	font-family: 'League Gothic', sans-serif;
 	padding-top: 25px;
 	margin: auto;
-	font-size: 3em;
+	font-size: auto;
 	color: #ffc300;
 }
 .yellow2{
-	font-size: 1em;
+	width: auto;
+	font-size: auto;
 	color: #ffc300;
 }

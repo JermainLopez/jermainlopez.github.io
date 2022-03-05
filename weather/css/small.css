@@ -6,7 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /* Small/Phone View ***************/
 nav {
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: auto;
 	background-color: #001D3D;
 }
 nav a:visited {
@@ -69,8 +69,53 @@ nav a:visited {
 		display: none;
 	}
 	#father-box .header{
-		display: block;
+		display: inline-block;
 	}
+}
+@media screen and (max-width: 32.5em) {
+	main .banner-box{
+		width: 25em;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	main #banner-image{
+		padding: auto;
+		width: auto;
+	}
+	main .five-day{
+		margin: 5px;
+		padding: 0;
+		width:  25em;
+		flex-wrap:  wrap;
+		row-gap: 10px;
+		column-gap: 50px;
+	}
+	main .travel{
+		margin: 5px;
+		padding: 0;
+		flex-direction: column;
+	}
+	main #travel-par{
+		margin: 0;
+		width:  25em;
+	}
+	main .preston-contact{
+		width:  25em;
+		flex-direction: column;
+	}
+	main .imagePreston{
+		width:  25em;
+	}
+
+
+
+	
+
+
+	
+
 }
 
 
@@ -91,18 +136,15 @@ body {
 
     }
 #headerBox{
-	width: 90%;
 	display: flex;
-	height: 90%;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 
 #logo{
 	background-color: #a2d6f9;
-	margin: auto;
-	width: 150px;
-	height: 150px;
+	padding: auto;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
 	border-radius: 25px;
 }
 
@@ -136,5 +178,12 @@ header, footer {
 	border-radius: 15px;
 	}
 .yellow{
+	padding-top: 25px;
+	margin: auto;
+	font-size: 3em;
+	color: #ffc300;
+}
+.yellow2{
+	font-size: 1em;
 	color: #ffc300;
 }

@@ -1,0 +1,76 @@
+main{
+    width: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    grid-template-areas:
+      "preston-title preston-title preston-title preston-title preston-title preston-title"
+      "banner-box banner-box banner-box banner-box banner-box banner-box"
+      "preston-par preston-par preston-par preston-par preston-par preston-par"
+      "five-day five-day five-day five-day five-day five-day"
+      "travel travel travel travel travel travel"
+      "preston-contact preston-contact preston-contact preston-contact preston-contact preston-contact";
+}
+
+.preston-title{
+    grid-area: preston-title;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.banner-box{
+    grid-area: banner-box;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.preston-par{
+    grid-area: preston-par;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.five-day{
+    width: 80%;
+    height: 100%;
+    background-color: #FFC300;
+    margin: auto;
+    grid-area: five-day;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+.travel{
+    grid-area: travel;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.preston-contact{
+    grid-area: preston-contact;
+    display: flex;
+    justify-content: space-between;
+}
+.preston-contact-us{
+    display: block;
+}
+.preston-par {
+
+    font-size: 25px;
+    margin-top: 40px;
+}
+.action2{
+    width: 100px;
+    height: 100px;
+    color: #FFD60A;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #001D3D;
+    backdrop-filter: blur(5px);
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    border-radius: 25px;
+}
+#banner-image{
+    grid-area: banner-image;
+}

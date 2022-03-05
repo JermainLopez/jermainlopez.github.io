@@ -130,8 +130,16 @@ footer a:hover {
     grid-area: container-2;
     grid-template-rows: repeat(3, 1fr);
     }
+.title{
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+        color: #001D3D;
+        grid-column: 1/2;
+        grid-row:1/2; 
+    }
 .title2{
-    margin: 30px;
+    margin-top: 30px;
     text-align: center;
     align-items: center;
     color: #001D3D;

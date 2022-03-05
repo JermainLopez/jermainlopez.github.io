@@ -54,7 +54,7 @@ main{
     display: block;
 }
 .preston-par {
-
+    font-family: Georgia, serif;
     font-size: 25px;
     margin-top: 40px;
 }
@@ -73,4 +73,7 @@ main{
 }
 #banner-image{
     grid-area: banner-image;
+}
+h1, h3{
+    font-family: Georgia, serif;
 }

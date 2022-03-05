@@ -1,9 +1,34 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 38.5em) {
+body{
+    max-width: 37.5em;
+}
 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    padding: 15px;
+    margin: 15px;
+    border: dashed 1px;
+}
 
+.forecastDay {
+    padding: 15px;
+    margin: 15px;
+    border: dashed 1px;
 
+}
 
+.article {
+    padding: 15px;
+    margin: 15px;
+    border: dashed 1px;
+}
 
-
-
+.contactInformation {
+    padding: 15px;
+    margin: 15px;
+    border: dashed 1px;
 }

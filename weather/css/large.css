@@ -73,7 +73,7 @@
 /*Div Day*/
 
 .five-day{
-    max-width: 100%;
+    width: auto;
     height: 100%;
     background-color: #FFC300;
     margin: 0 100px 0 100px;
@@ -81,7 +81,7 @@
     display: flex;
 }
 .travel{
-    max-width: 100%;
+    width: auto;
     grid-area: travel;
     padding-left: 100px;
     padding-right: 100px;
@@ -89,7 +89,7 @@
     justify-content: space-around;
 }
 #travel-par{
-    max-width: 100%;
+    width: auto;
     padding: 10px;
 }
 #image-trave{
@@ -98,7 +98,7 @@
 
 /*Div Contact*/
 .preston-contact{
-    max-width: 100%;
+    width: auto;
     grid-area: preston-contact;
     display: flex;
     justify-content: space-between;
@@ -129,5 +129,5 @@ h1, h3{
     font-family: Georgia, serif;
 }
 image{
-    max-width: 100%;
+    width: 100%;
 }

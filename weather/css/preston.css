@@ -3,13 +3,13 @@ body {
     font-family: sans-serif, "Times New Roman", serif;
     font-size: 1.1em;
     background: linear-gradient(45deg, #000814, white, black);
-    margin: 0;
+    margin: auto;
     background-attachment: fixed;
   }
 
 #father-box {
+	max-width: 940px;
 	border-radius: 15px;
-    margin: 0 auto;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: brightness(120%);
 

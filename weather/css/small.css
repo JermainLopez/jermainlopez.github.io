@@ -34,7 +34,7 @@ nav a:visited {
 }
 
 .navigation a.ham::before {
-	content: "⛅";
+	content: "⛅ ";
 }
 
 .navigation a:hover {

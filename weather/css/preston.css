@@ -1,5 +1,6 @@
 /*Body*/
 body {
+	max-width: 100%;
     font-family: sans-serif, "Times New Roman", serif;
     font-size: 1.1em;
     background: linear-gradient(45deg, #000814, white, black);
@@ -9,13 +10,16 @@ body {
 
 #father-box {
 	max-width: 940px;
+	margin: 0 auto;
 	border-radius: 15px;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: brightness(120%);
 
 }
 #headerBox{
+	width: 100%;
 	display: flex;
+	justify-content: center;
 }
 
 #logo{
@@ -49,7 +53,7 @@ footer p{
 	color: #ffc300;
 }
 
-header, footer {
+footer {
 	width: auto;
 	height: auto;
 	background: #000814;
@@ -67,4 +71,8 @@ header, footer {
 	width: auto;
 	font-size: auto;
 	color: #ffc300;
+}
+header{
+	width: 100%;
+	background: #000814;
 }

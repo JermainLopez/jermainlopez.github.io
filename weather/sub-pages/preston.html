@@ -58,63 +58,51 @@
     
 <!-- CONTENT HERE -->
     <main>
-      <div class="main-grid">
-        <h1 class="preston-title">Preston Idaho</h1>
+        <h1>Preston Idaho</h1>
+        <div class="herodiv">
+            <picture>
+                <img src="/weather/images/preston-idaho.jpg" width="100%" alt="hero image">
+            </picture>
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="Currently">12°C</span></p>
+                <p>Wind Chill:: <span id="Wind-Chill">8°C</span></p>
+                <p>Humidity: <span id="Humidity">65°C</span></p>
+                <p>Wind Speed: <span id="Wind-Speed">3 mph</span></p>
+            </section>
+        </div>
 
-        <div class="banner-box">
-            <img
-              id="banner-image"
-              src="/weather/images/preston-idaho.jpg"
-              alt="Home's Banner image "
-              width="400"
-              height="250"
-            />
-            <div class="action">
-              <h3>
-                Weather Summary
-              </h3>
-              <p>
-                ⛅ 8°C°F
-              </p>
+        <h2>Flex</h2>
+        <div class="flex">
+            <div class="flex-col">
+                <span class="col-head">Monday</span>
+                <img class="image-day" src="../images/clouds.jpg" width="80px" height="80px" alt="kitten!">
+                <span class="data">Kitten 1</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Tuesday</span>
+                <img class="image-day" src="../images/cloudsandsun.jpg" width="80px" height="80px" alt="kitten!">
+                <span class="data">Kitten 2</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Wednesday</span>
+                <img class="image-day" src="../images/rain.jpg" width="80px" height="80px" alt="kitten!">
+                <span class="data">Kitten 3</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Thursday</span>
+                <img class="image-day" src="../images/stormy.jpg" width="80px" height="80px" alt="kitten!">
+                <span class="data">Kitten 4</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Friday</span>
+                <img class="image-day" src="../images/sun.jpg" width="80px" height="80px" alt="kitten!">
+                <span class="data">Kitten 5</span>
             </div>
         </div>
 
-        <p class="preston-par">Five Day forecast. </p>
 
-        <div class="five-day">
-            <div class="action2">
-                <h10>Day 1</h10>
-                <p>⛅ 11°C°F</p>
-              </div>
-            <div class="action2">
-                <h10>Day 2</h10>
-                <p>
-                  ⛅ 18°C°F
-                </p>
-            </div>
-            <div class="action2">
-                <h10>Day 3</h10>
-                <p>
-                  ⛅ 9°C°F
-                </p>
-            </div>
-            <div class="action2">
-                <h10>Day 4</h10>
-                <p>
-                  ⛅ 4°C°F
-                </p>
-            </div>
-            <div class="action2">
-                <h10>Day 5</h10>
-                <p>
-                  ⛅ 7°C°F
-                </p>
-            </div>
-
-        </div>
-
-
-          <div class="travel">
+        <div class="article">
                 <div id="travel-par">
                     <h3>Best time to travel to Preston</h3>
                     <p >The best time to travel to Preston in Idaho is from June to September, where you 
@@ -124,46 +112,55 @@
                 <img class="image-trave" src="/weather/images/viajes.jpg" width="200px" height="200px" alt="" />
           </div>
 
-          <div class="preston-contact">
-                <img class="imagePreston" src="/weather/images/map.jpg" width="600px" height="200px" alt="" />
-                <div class="preston-contact-us">
-                    <h3>Contact Information</h3>
-                    <p>📍 215 E 2nd S, Preston, ID 83263, EE. UU.</p>
-                    <p>📧 littlecloud@outlook.com</p>
-                    <p>☎️ (208) 336-7649</p>
-                    
-                    <div class="social-media">
-                        <a href="https://www.facebook.com" target="_blank"
-                          ><img
-                            class="separate"
-                            src="/weather/images/facebook.png"
-                            alt="Facebook icon"
-                            width="45"
-                            height="25"
-                        /></a>
-                        <a href="https://www.instagram.com" target="_blank"
-                          ><img
-                            class="separate"
-                            src="/weather/images/instagram.png" 
-                            alt="Instagram icon"
-                            width="25"
-                            height="25"
-                        /></a>
-                        <a href="https://www.linkedin.com/" target="_blank"
-                          ><img
-                            class="separate"
-                            src="/weather/images/linkedin.png"
-                            alt="Youtube icon"
-                            width="25"
-                            height="25"
-                        /></a>
-                    </div>
-
+        <div class="preston-contact">
+            
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853451145!2d-111.91534448893582!3d42.099741626372904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2shn!4v1646798223468!5m2!1ses!2shn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="preston-contact-us">
+                <h3>Contact Information</h3>
+                <p>📍 215 E 2nd S, Preston, ID 83263, EE. UU.</p>
+                <p>📧 littlecloud@outlook.com</p>
+                <p>☎️ (208) 336-7649</p>
+                <br>
+                <br>
+                
+                <div class="social-media">
+                    <a href="https://www.facebook.com" target="_blank"
+                      ><img
+                        class="separate"
+                        src="/weather/images/facebook.png"
+                        alt="Facebook icon"
+                        width="45"
+                        height="25"
+                    /></a>
+                    <a href="https://www.instagram.com" target="_blank"
+                      ><img
+                        class="separate"
+                        src="/weather/images/instagram.png" 
+                        alt="Instagram icon"
+                        width="25"
+                        height="25"
+                    /></a>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                      ><img
+                        class="separate"
+                        src="/weather/images/linkedin.png"
+                        alt="Youtube icon"
+                        width="25"
+                        height="25"
+                    /></a>
                 </div>
 
+            </div>
 
-          </div>
-      </div>
+
+        </div>
+
+
+
+
+
     </main>
     
 <!-- FOOTER HERE -->   

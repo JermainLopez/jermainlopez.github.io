@@ -237,7 +237,7 @@ td {
 	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
 .grid-col {
-	background-color: tomato;
+	background-color: #ffc300;
 }
 
 .image-day{

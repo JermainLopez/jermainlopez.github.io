@@ -6,7 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /* Small/Phone View ***************/
 nav {
 	margin: 0 auto;
-	max-width: auto;
+	max-width: 100%;
 	background-color: #001D3D;
 }
 nav a:visited {
@@ -71,6 +71,7 @@ nav a:visited {
 	#father-box .header{
 		display: inline-block;
 	}
+
 }
 
 

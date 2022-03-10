@@ -24,7 +24,7 @@ body {
 
 #logo{
 	background-color: #a2d6f9;
-	padding: auto;
+	padding: 3px;
 	margin: 20px;
 	width: 100px;
 	height: 100px;
@@ -64,7 +64,6 @@ footer {
 	font-family: 'League Gothic', sans-serif;
 	padding-top: 25px;
 	margin: auto;
-	font-size: auto;
 	color: #ffc300;
 }
 .yellow2{

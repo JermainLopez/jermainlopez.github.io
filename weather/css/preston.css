@@ -241,3 +241,14 @@ td {
 .image-day{
 	border-radius: 40px;
 }
+#myDIV{
+	display: none;
+	text-align: center;
+	font-size: larger;
+	font-family: "Times New Roman";
+	padding: 25px;
+	width: 100%;
+  	height: 100px;
+ 	background-color: #ffc300;
+	color: #000814;
+}

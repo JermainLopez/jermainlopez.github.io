@@ -20,5 +20,17 @@ var string = document.lastModified;
 let nLastModif = Date.parse(document.lastModified);
   
 document.body.appendChild(document.createElement("center")).innerText = "Last Updated: " + document.lastModified
-  
-  
+
+
+
+var f=new Date();
+    /*document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());*/
+var day = f.getDay();
+var x = document.getElementById('myDIV');
+if (day === 5) {
+  x.style.display = 'block';
+  document.querySelector('#myDIV').textContent = "Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+
+}else {
+  x.style.display = 'none';
+}

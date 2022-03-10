@@ -68,7 +68,6 @@ footer {
 }
 .yellow2{
 	width: auto;
-	font-size: auto;
 	color: #ffc300;
 }
 header{
@@ -104,11 +103,11 @@ p {
 
 .stats {
 	position: absolute;
-	bottom: 25px;
+	top: 25px;
 	left: 50px;
 	background: radial-gradient(#eee, #ffc300);
 	border: 1px solid #000;
-	padding: 1.5rem;
+	padding: 2rem;
 	box-shadow: 0 0 30px #333;
 	opacity: 0.6;
 }

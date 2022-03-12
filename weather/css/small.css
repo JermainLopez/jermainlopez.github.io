@@ -54,7 +54,7 @@ nav a:visited {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
 	.navigation {
 		display: flex;
 	}
@@ -89,9 +89,13 @@ nav a:visited {
 	main .herodiv.stas{
 		position: none;
 	}
+	main .preston-contact{
+		padding: 30px;
+		flex-wrap: wrap;
+	}
 	main .article{
-		display: flex;
-		flex-direction: column;
+		margin: 0;
+		flex-wrap: wrap;
 	}
 
 }

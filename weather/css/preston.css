@@ -19,6 +19,7 @@ body {
 #headerBox{
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
 	justify-content: center;
 }
 header figure.logo{

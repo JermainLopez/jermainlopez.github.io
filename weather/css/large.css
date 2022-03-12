@@ -1,23 +1,23 @@
 
 .article{
-    width: auto;
+    width: 100%;
     grid-area: travel;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #travel-par{
-    width: auto;
+    width: 100%;
     padding: 10px;
 }
 #image-trave{
-    width: auto;
+    width: 100%;
 }
 
 /*Div Contact*/
 .preston-contact{
-    width: auto;
+    width: 100%;
     grid-area: preston-contact;
     display: flex;
     justify-content: space-between;

@@ -31,9 +31,11 @@
 <!-- HEADER HERE -->
 	<header class="clearfix">
         <div id="headerBox">
-            <figure class="logo">
-                <img src="../images/logoWeather0.png" alt="Image logo" srcset="../images/logoWeather1.png 1x, ../images/logoWeather2.png 2x, ../images/logoWeather3.png 3x" />
-            </figure>
+            <div id="container-logo">
+                <figure class="logo">
+                    <img src="../images/logoWeather0.png" alt="Image logo" srcset="../images/logoWeather1.png 1x, ../images/logoWeather2.png 2x, ../images/logoWeather3.png 3x" />
+                </figure>
+            </div>
             <div id="siteName">
                 <h1 class="yellow">LittleCloud Weather</h1>
                 <br>
@@ -73,10 +75,12 @@
             </picture>
             <section class="stats">
                 <h2>Weather Summary</h2>
-                <p>Currently: <span id="Currently">12°C</span></p>
-                <p>Wind Chill:: <span id="Wind-Chill">8°C</span></p>
-                <p>Humidity: <span id="Humidity">65°C</span></p>
-                <p>Wind Speed: <span id="Wind-Speed">3 mph</span></p>
+                <p class="windchill-text-size">Currently: <span id="temperature"></span> &deg;F </p>
+                <p class="windchill-text-size">Description: <span id ="description"></span></p>
+                <p class="windchill-text-sizet">Wind Chill: <span id ="windChill"></span></p>
+                <p class="windchill-text-size">High: <span id ="high-temperature"></span> &deg;F</p>
+                <p class="windchill-text-size">Humidity: <span id ="humidity"></span> %</p>
+                <p class="windchill-text-size">Wind Speed: <span id ="wind-speed"></span> mph</p>
             </section>
         </div>
 
@@ -164,8 +168,6 @@
 
 
 
-
-
     </main>
     
 <!-- FOOTER HERE -->   
@@ -176,6 +178,7 @@
     </footer>
 
 <script src="../js/scripts.js"></script>
+<script src="../js/winchill.js"></script>
 </div>
 </body>
 </html>

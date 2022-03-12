@@ -22,7 +22,11 @@ body {
 	justify-content: space-between;
 	justify-content: center;
 }
+#container-logo{
+	padding: 0;
+}
 header figure.logo{
+
 	float: left;
 	margin: o 2% 0 0;
 }
@@ -32,8 +36,10 @@ header figure.logo{
 	width: auto;
 	height: auto;
 	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;;
+	flex-grow: 4; 
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 30px;
 }
 footer a:link,
 footer a:visited {
@@ -102,7 +108,8 @@ p {
 }
 
 .stats {
-	position: absolute;
+	display:block;
+	position:absolute;
 	top: 25px;
 	left: 50px;
 	background: radial-gradient(#eee, #ffc300);
@@ -110,6 +117,7 @@ p {
 	padding: 2rem;
 	box-shadow: 0 0 30px #333;
 	opacity: 0.6;
+	word-wrap: break-word;
 }
 
 .stats span {
@@ -251,4 +259,7 @@ td {
   	height: 100px;
  	background-color: #ffc300;
 	color: #000814;
+}
+.ws-text{
+	font-size: 1em;
 }

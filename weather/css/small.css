@@ -54,7 +54,7 @@ nav a:visited {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.navigation {
 		display: flex;
 	}
@@ -95,7 +95,6 @@ nav a:visited {
 	main .article{
 		max-width: 100%;
 		margin: 0;
-		flex-wrap: wrap;
 	}
 
 }

@@ -27,14 +27,15 @@ function weatherSummary () {
 }
 //Create the object that passes the values from the URL to the lists
 async function FetchWeather(){
+
     let url = "https://api.weatherapi.com/v1/forecast.json?key=103ea9f0eebe4be1825213412221103&q=83263&days=5&aqi=no&alerts=no"
     await fetch(url)
-    .then((response) => {
-        return response.json();
+    .then((Information) => {
+        return Information.json();
     })
-    .then((weatherJSON) => {
-    weatherFromURL = weatherJSON.current
-    forecastFromURL = weatherJSON.forecast.forecastday
+    .then((climateExtractedFromJSON) => {
+    weatherFromURL = climateExtractedFromJSON.current;
+    forecastFromURL = climateExtractedFromJSON.forecast.forecastday;
     });
     weatherSummary();
 }

@@ -21,15 +21,11 @@ body {
 	display: flex;
 	justify-content: center;
 }
-
-#logo{
-	background-color: #a2d6f9;
-	padding: 3px;
-	margin: 20px;
-	width: 100px;
-	height: 100px;
-	border-radius: 25px;
+header figure.logo{
+	float: left;
+	margin: o 2% 0 0;
 }
+
 
 #siteName{
 	width: auto;
@@ -88,10 +84,13 @@ h1 {
 }
 
 .herodiv {
+
 	margin: 10px auto;
 	position: relative;
 }
-
+.herodiv img {
+    width: 100%;
+}
 h2 {
 	margin: 0 0 .5rem;
 	border-bottom: 1px solid #000;

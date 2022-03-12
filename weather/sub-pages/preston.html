@@ -29,9 +29,11 @@
 <body>
     
 <!-- HEADER HERE -->
-	<header>
+	<header class="clearfix">
         <div id="headerBox">
-            <img id="logo" src="../../lesson2/images2/logoWeather-PhotoRoom.png" alt="Image logo" />
+            <figure class="logo">
+                <img src="../images/logoWeather0.png" alt="Image logo" srcset="../images/logoWeather1.png 1x, ../images/logoWeather2.png 2x, ../images/logoWeather3.png 3x" />
+            </figure>
             <div id="siteName">
                 <h1 class="yellow">LittleCloud Weather</h1>
                 <br>
@@ -61,10 +63,15 @@
         </div>
         <h1>Preston Idaho</h1>
         <div class="herodiv">
-            <picture>
-                <img src="/weather/images/preston-idaho.jpg"  style="width:100%;" alt="hero image">
+
+            <picture id="image-responsive">
+                    <source media="(max-width: 768px)" srcset="../images/wdd230_image_franSmalll.jpeg">
+                    <source media="(max-width: 800px)" srcset="../images/wdd230_image_franMedium.jpeg">
+                    <source media="(max-width: 1000px)" srcset="../images/wdd230_image_franLarge.jpeg" >
+                    <img src="../images/wdd230_image_franklinOriginal.jpeg" alt="Image of Preston Idaho and a blue sky">
+                    <!-- <img src="/weather/images/preston-idaho.jpg"  style="width:100%;" alt="hero image"> -->
             </picture>
-            <section class="stats">
+                 <section class="stats">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="Currently">12°C</span></p>
                 <p>Wind Chill:: <span id="Wind-Chill">8°C</span></p>

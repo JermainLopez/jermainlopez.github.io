@@ -72,6 +72,28 @@ nav a:visited {
 		display: inline-block;
 	}
 
+	header figure.logo{
+		float: left;
+		margin: 0 2% 0 0;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	main.herodiv{
+		display: flex;
+		flex-direction: column;
+	}
+	main .herodiv.stas{
+		position: none;
+	}
+	main .article{
+		display: flex;
+		flex-direction: column;
+	}
+
 }
 
 

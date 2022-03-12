@@ -54,7 +54,7 @@ nav a:visited {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 	.navigation {
 		display: flex;
 	}
@@ -90,10 +90,10 @@ nav a:visited {
 		position: none;
 	}
 	main .preston-contact{
-		padding: 30px;
-		flex-wrap: wrap;
+		max-width: 100%;
 	}
 	main .article{
+		max-width: 100%;
 		margin: 0;
 		flex-wrap: wrap;
 	}

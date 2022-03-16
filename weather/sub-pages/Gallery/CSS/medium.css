@@ -1,0 +1,10 @@
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+    #father-main-container{
+        grid-template-areas: 
+        "container1 container1 container1 container2 container2 container2"
+        "container3 container3 container3 container2 container2 container2"
+        
+        ;
+    }
+
+}

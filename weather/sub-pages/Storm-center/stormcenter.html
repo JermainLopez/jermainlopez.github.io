@@ -75,7 +75,8 @@
                     Full name:
                         <input  type="name" name="name" placeholder="Jermain Lopez Andino" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
                 </label>
-                <label class="info">eMail:
+                <label class="info">
+                    eMail:
                     <input type="email" name="email" placeholder="user@email.org" required></label>
                 <label class="info"> 
                     Phone:
@@ -86,9 +87,11 @@
 
             <fieldset>
                 <h3>Storm Information</h3>
-                <label class="info">Storm date:
+                <label class="info">
+                    Storm date:
                     <input type="date" name="theDate"></label>
-                <label class="info">Storm Type:
+                <label class="info">
+                    Storm Type:
                     <input name="browsers" list="storm-type"></label>
 
                 <datalist id="storm-type">
@@ -100,7 +103,8 @@
                 </datalist>
                 <br>
 
-                <label class="info" for="rating">Storm severity: &nbsp;&nbsp;&nbsp;
+                <label class="info" for="rating">
+                    Storm severity: &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                 </label>

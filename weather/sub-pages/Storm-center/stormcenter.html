@@ -67,34 +67,28 @@
 <!-- CONTENT HERE -->
     <main id="">
 
-
+        <form method="get" action="thanks.html">
         
             <fieldset>
                 <h3>Personal Information</h3>
-                <label>
+                <label class="info">
                     Full name:
-                        <input type="name" name="name" placeholder="Jermain Lopez Andino">
+                        <input  type="name" name="name" placeholder="Jermain Lopez Andino" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
                 </label>
-                <br>
-                <br>
-                <label>eMail:
-                    <input type="email" name="email" placeholder="user@email.org"></label>
-                <br>
-                <br>
-                <label>
+                <label class="info">eMail:
+                    <input type="email" name="email" placeholder="user@email.org" required></label>
+                <label class="info"> 
                     Phone:
-                        <input type="tel" name="phone" placeholder="###-###-####"></label>
-                <br>
-                <br>
-                <label for="zip">Zip Code:
-                    <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label>
+                        <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label for="zip" class="info">Zip Code:
+                    <input type="text" name="zip" placeholder="12345" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep" required></label>
             </fieldset>
 
             <fieldset>
                 <h3>Storm Information</h3>
-                <label>Storm date:
-                    <input type="date" name="theDate"></label><br><br>
-                <label>Storm Type:
+                <label class="info">Storm date:
+                    <input type="date" name="theDate"></label>
+                <label class="info">Storm Type:
                     <input name="browsers" list="storm-type"></label>
 
                 <datalist id="storm-type">
@@ -104,9 +98,9 @@
                     <option value="Thunderstorm"></option>
                     <option value="Tornado"></option>
                 </datalist>
-                <br><br>
+                <br>
 
-                <label class="flexly" for="rating">Storm severity: &nbsp;&nbsp;&nbsp;
+                <label class="info" for="rating">Storm severity: &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                 </label>
@@ -123,8 +117,8 @@
                     <option value="9"></option>
                     <option value="10"></option> 
                 </datalist>
-                <br><br>
-                <label>
+
+                <label class="info">
                     Storm region:
                     <select name="Storm-region" id="select-region" onchange="selectResponse()">
                         <option value="" disabled selected>Select Region ...</option>
@@ -152,17 +146,17 @@
 
             <fieldset>
                 <br>
-                <label for="msg">Additional information:</label>
-                <br>
-                <br>
+                <label class="info" for="msg">Additional information:</label>
                 <textarea id="msg" name="user_message"  style="width: 80%; height: 200px;"></textarea>
                 <br>
                 <br>
-                <button type="button" class="sbutton" onclick="window.location.href='thanks.html'">Send Information</button>
             </fieldset>
+            <div id="line-top"></div>
+                <div id="send1"></div><input type="submit" value="Submit Information" class="submitBtn"><div id="send2"></div>
+                <div id="line-bottom"></div>
+        </form>
 
 
-       
     </main>
     
 <!-- FOOTER HERE -->   

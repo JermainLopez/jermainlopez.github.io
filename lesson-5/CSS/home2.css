@@ -34,13 +34,20 @@ main{
         grid-template-columns: 1fr;
     }
     body .card1{
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
     }
     body .card2{
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
     body .card3{
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    img{
+        height: 50px;
     }
 
 }

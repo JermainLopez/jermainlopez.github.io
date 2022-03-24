@@ -35,18 +35,33 @@ main{
     }
     body .card1{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr 2fr;
 
     }
     body .card2{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr 2fr;
     }
     body .card3{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr 2fr;
     }
-    img{
+    body .card1 img{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 200px;
+        height: 50px;
+    }
+    body .card2 img{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 200px;
+        height: 50px;
+    }
+    body .card3 img{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 200px;
         height: 50px;
     }
 

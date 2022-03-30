@@ -5,6 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 /* Small/Phone View ***************/
 nav {
+	color: #FFD60A;
 	border: 0.5px solid #003566;
 	margin: 0 auto;
 	max-width: 100%;

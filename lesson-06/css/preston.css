@@ -276,6 +276,7 @@ td {
   }
 
 .active {
+	color: #f8cd0c;
 	font-size: 40px;
 	background: #072ac8;
   }

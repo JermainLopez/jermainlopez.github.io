@@ -275,7 +275,8 @@ td {
 	box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
   }
 
-  .active {
+.active {
+	color: #f8cd0c;
 	font-size: 40px;
 	background: #072ac8;
   }

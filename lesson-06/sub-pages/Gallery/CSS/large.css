@@ -1,0 +1,43 @@
+#father-main-container{
+    display: grid;
+    column-gap: 0;
+    row-gap: 0;
+    grid-template-areas: 
+    "container1 container1 container2 container2 container3 container3"
+    ;
+    grid-template-rows: auto;
+}
+#container1{
+    grid-area: container1;
+}
+#container2{
+    grid-area: container2;
+}
+#container3{
+    grid-area: container3;
+}
+
+
+figure img[data-src] {
+    padding: 10px;
+    background: #003566;
+    filter: blur(1em);
+  }
+  
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    background: #ffc300;
+  }
+
+#father-main-container{
+    max-width: 90%;
+    margin: 0;
+    padding: 0;
+}
+figure:hover {box-shadow: 0 0 50px #333;}

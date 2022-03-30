@@ -1,0 +1,54 @@
+
+.article{
+    width: 100%;
+    grid-area: travel;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#travel-par{
+    width: 100%;
+    padding: 10px;
+}
+#image-trave{
+    width: 100%;
+}
+
+/*Div Contact*/
+.preston-contact{
+    width: 100%;
+    grid-area: preston-contact;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagePreston{
+    width:  100%;
+    margin: 15px;
+}
+.preston-contact-us{
+    display: block;
+}
+
+.action2{
+    width: 100px;
+    height: 100px;
+    color: #FFD60A;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #001D3D;
+    backdrop-filter: blur(5px);
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 25px;
+}
+
+h1, h3{
+    font-family: Georgia, serif;
+}
+image{
+    width: 100%;
+}

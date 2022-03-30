@@ -271,15 +271,18 @@ td {
 	padding: 3%;
 	border: 11px solid #001D3D;
   }
-  .upcoming:hover {
+.upcoming:hover {
 	box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
   }
 
-  .active {
+.active {
 	font-size: 40px;
 	background: #072ac8;
   }
 
 a{
+	color: #f8cd0c;
+}
+li{
 	color: #f8cd0c;
 }

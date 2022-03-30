@@ -1,0 +1,52 @@
+#selected {
+	position: absolute;
+	top: 550px;
+	left: 300px;
+	border: 1px solid #999;
+	background-color: #abe;
+	padding: 10px;
+	font-weight: 700;
+	display: none;
+}
+#storm-body{
+    background: #ffc300;
+}
+
+
+
+form fieldset {
+    border: 3px solid #001D3D;
+	border-radius: 10px;
+}
+form legend {
+    color: #001D3D;
+}
+form label.info, form div {
+    display: block;
+    color: #001D3D;
+    padding: 2px;
+    font-size: 1.2rem;
+}
+form label.info input, form label.info select, form label.info textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #003566;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #003566;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #FFF0A8; 
+}
+
+.submitBtn{
+	color: #ffc300;
+	width: 180px;
+	height: 50px;
+	background: #001D3D;
+	border-radius: 6px;
+	transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+.submitBtn:hover {
+	cursor: pointer;
+  }

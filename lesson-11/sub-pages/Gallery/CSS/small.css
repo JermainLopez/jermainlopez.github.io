@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+    #father-main-container{
+        grid-template-areas: 
+        "container1 container1 container1 container1 container1 container1"
+        "container2 container2 container2 container2 container2 container2"
+        "container3 container3 container3 item item item"
+        
+        ;
+    }
+    figure:hover {box-shadow: none;}
+
+}

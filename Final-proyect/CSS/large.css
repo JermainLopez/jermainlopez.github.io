@@ -69,3 +69,8 @@ a{
     color: yellow;
 }
 
+.active {
+	color: #231942;
+	font-size: 40px;
+	background: #BE95C4;
+  }

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Final Proyect">
+<meta name="author" content="Jermain Lopez">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Scooters Rental Experts</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="../../CSS/normalize.css" rel="stylesheet">
+<link href="../../CSS/small.css" rel="stylesheet">
+<link href="../../CSS/medium.css" rel="stylesheet">
+<link href="../../CSS/large.css" rel="stylesheet">
+
+<link href="css/rentals.css" rel="stylesheet">
+
+
+
+
+
+     
+</head>
+<body>
+    
+<!-- HEADER HERE -->
+	<header>
+        <div id="siteName">
+            <h1 id="title-site">~Scoots Site Plan</h1>
+            <br>
+            <h3 id="motto">More time, faster and less costly.</h3>
+        </div>
+        <div id="headerBox">
+            <img id="logo" src="../../IMAGES/logo.jpg" style="width: 100px; height: 100px;" alt="Image logo" />
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">  Menu</a></li>
+                <li><a href="../../index.html">Home</a></li>
+                <li class="active"><a href="rentals.html">Rentals</a></li>
+                <li><a href="../tours/tours.html">Tours</a></li>
+                <li><a href="../reservations/reservations.html">Reservations</a></li>
+                <li><a href="../contact/contact.html">Contact US</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="father-box-home">
+    
+<!-- NAVIGATION HERE -->
+    
+    
+    
+<!-- CONTENT HERE -->
+    <main class="container-home4">
+        <div class="container1">
+            <form >
+                <fieldset>
+                    <label class="info">
+                        Rental Type:
+                        <select name="Storm-region" id="rental" onchange="selectResponse()" required>
+                            <option value="" disabled selected>Select Type ...</option>
+                            <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                            <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                            <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                            <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                            <option value="Jeep Wrangler—4 door with a/c">Jeep Wrangler—4 door with a/c</option>
+                            <option value="Jeep Wrangler—2 door">Jeep Wrangler—2 door</option>
+                        </select>
+                    </label>
+                    <fieldset class="nestedfieldset">
+                        <legend >Type of Reservation <em>(Choose one)</em></legend>
+                        <div class="selection">
+                            <input type="radio" name="level" class="Reservation1" value="reservation" onchange="selectResponse2()">
+                            <label for="level1" >Reservation</label>
+                            <input type="radio" name="level" class="Reservation2" value="walkIn" onchange="selectResponse3()">
+                            <label for="level2">Walk-In</label>
+                        </div>
+
+
+                        <label class="info">
+                            Rental Time:
+                            <select name="Storm-region" id="select-time" onchange="selectResponse4()" required>
+                                <option value="" disabled selected>Select Time ...</option>
+                                <option value="halfDay">Half Day(3 hrs)</option>
+                                <option value="fullDay">Full Day</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <label for="zip" class="info">
+                        How many people will visit us? (Max 20 people, Example: 01 - 20)
+                        <br>
+                        <input type="text" id="numero" placeholder="08" required pattern="[0-20]{2}"></label>
+                
+                </fieldset>
+                <div id="line-top"></div>
+                    <div id="first"></div><input value="   Submit Information" class="submitBtn" onclick="main()"><div id="second"></div>
+                    <div id="line-bottom"></div>
+            </form>
+
+            <div class="principal-form">
+                <div id="principal-div">
+                    <h2>Summer Promotion</h2>
+                    <img src="../../IMAGES/rent.png" alt="Image logo" />
+                    <h2>Rent</h2>
+                </div>
+                
+                <div id="principal-image">
+                    <img id="image1" src="../../IMAGES/Scooters2022.jpg" alt="Image logo" />
+                </div>
+                
+            </div>
+        <hr>
+        </div >
+            
+        <div class="New">
+            <h2>Your information will be displayed below after completing the required information:</h2>
+            <h2 class="fiveday">Rent calculator</h2>
+            <div class="flex"></div>
+            <div class="flex1"></div>
+            <div class="flex2"></div>
+            <div class="flex3"></div>
+            <div class="flex4"></div>
+            <div class="flex5"></div>
+            <div class="flex6"></div>
+            <div class="flex7"></div>
+            <div class="flex8"></div>
+            <div class="flex9"></div>
+        </div>
+     
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p>
+            &copy; ~Scoots April 2022 | Jermain López | Tegucigalpa | WDD 230  <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a>
+        </p>
+    </footer>
+
+<script src="rental.js"></script>
+</div>
+</body>
+</html>

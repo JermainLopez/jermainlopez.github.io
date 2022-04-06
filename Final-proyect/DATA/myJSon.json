@@ -1,0 +1,8 @@
+{
+ "rentalType":["Honda Metro Scooter", "Honda Dio Scooter", "Honda PCX150 Scooter", "Honda Pioneer ATV", "Jeep Wrangler—4 door with a/c", "Jeep Wrangler—2 door"],
+ "maxPersons":[1, 2, 2, 4, 5, 4],
+ "reservation":{"halfDay":[20, 30, 40, 50, 70, 60], "fullDay":[30, 40, 50, 70, 100, 85]},
+ "walkIn": {"halfDay":[25, 35, 45, 60, 85, 70], "fullDay":[35, 45, 55, 80, 125, 90]}
+ 	
+
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Final Proyect">
+<meta name="author" content="Jermain Lopez">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Scooters Rental Experts</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="../../CSS/normalize.css" rel="stylesheet">
+<link href="../../CSS/small.css" rel="stylesheet">
+<link href="../../CSS/medium.css" rel="stylesheet">
+<link href="../../CSS/large.css" rel="stylesheet">
+
+
+<link href="css/reservation.css" rel="stylesheet">
+
+
+
+
+
+     
+</head>
+<body>
+    
+<!-- HEADER HERE -->
+	<header>
+        <div id="siteName">
+            <h1 id="title-site">~Scoots Site Plan</h1>
+            <br>
+            <h3 id="motto">More time, faster and less costly.</h3>
+        </div>
+        <div id="headerBox">
+            <img id="logo" src="../../IMAGES/logo.jpg" style="width: 100px; height: 100px;" alt="Image logo" />
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">  Menu</a></li>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../rentals/rentals.html">Rentals</a></li>
+                <li><a href="../tours/tours.html">Tours</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li><a href="../contact/contact.html">Contact US</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="father-box-home">
+    
+<!-- NAVIGATION HERE -->
+    
+    
+    
+<!-- CONTENT HERE -->
+    <main class="container-home-contra">
+        <form method="get" action="thanks.html" class="form-contra">
+            <fieldset>
+                <h3>Personal Information</h3>
+                <label class="info">
+                    Full name:
+                        <input  type="name" name="name" placeholder="Jermain Lopez Andino" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
+                </label>
+                <label class="info">
+                    eMail:
+                    <input type="email" name="email" placeholder="user@email.org" required></label>
+                <label class="info"> 
+                    Phone:
+                        <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label for="zip" class="info">
+                    Cruise line if applicable:
+                    <input type="text" name="zip" placeholder="12345" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep" ></label>
+                <label class="info">
+                    Country:
+                        <input  type="Country" name="Country" placeholder="Mexico" pattern="([a-zA-Z-])" required>
+                </label>
+                <label class="info">
+                    Direction:
+                        <input  type="Direction" name="Direction" placeholder="215 E 2nd S, Cuzmel, ID 83263, Mexico" pattern="([a-zA-Z-])" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <h3>When are you going to rent your equipment?</h3>
+                <label class="info">
+                    Date:
+                    <input type="date" name="theDate"></label>
+                <label class="info">
+                    Rental Time:
+                    <select name="Storm-region" id="select-time" onchange="selectResponse4()" required>
+                        <option value="" disabled selected>Select Time ...</option>
+                        <option value="Half">Half Day(3 hrs)</option>
+                        <option value="Full">Full Day</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset class="nestedfieldset">
+                <legend>I accept all the conditions</legend>
+                <div class="selection">
+                    <input type="checkbox" id="coding" name="interest" value="coding" required>
+                    <label for="coding"> I accept</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <br>
+                <label class="info" for="msg">Additional information:
+                <textarea id="msg" name="user_message"  style="width: 80%; height: 200px;"></textarea></label>
+                <br>
+                <br>
+            </fieldset>
+            <div id="line-top"></div>
+                <div id="first"></div><input type="submit" value="Submit Information" class="submitBtn"><div id="second"></div>
+                <div id="line-bottom"></div>
+        </form>
+        <div class="Specifications">
+            <h1>TRANSPORT VEHICLE LEASE AGREEMENT</h1>
+            <ul>
+                <h2>Specifications</h2>
+                <br>
+                <br>
+                <li>The lessor owns the vehicle.</li>
+                <br>
+                <br>
+                <li>THE LESSOR certifies that the vehicle referred to in the preceding clause
+                     is in good mechanical condition and conservation of bodywork, paint, and 
+                     accessories, without greater wear than that produced by normal and ordinary use.</li>
+                <br>
+                <br>
+                <li>By this contract, THE LESSOR undertakes to transfer the use of the property described in the 
+                    first clause in favor of THE LESSEE, by way of lease. For its part, THE LESSEE undertakes 
+                    to pay THE LESSOR the amount of the rent agreed in the following clause, in the manner 
+                    and at the agreed time.</li>
+            </ul>
+        </div>
+     
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p>
+            &copy; ~Scoots April 2022 | Jermain López | Tegucigalpa | WDD 230  <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a>
+        </p>
+    </footer>
+
+<script src="../../JS/script.js"></script>
+</div>
+</body>
+</html>

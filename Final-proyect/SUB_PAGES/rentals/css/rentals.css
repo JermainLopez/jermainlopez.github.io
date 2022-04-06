@@ -1,0 +1,79 @@
+.container1{
+    padding-top: 3%;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+form{
+    grid-column: 1/9;
+}
+
+.principal-form{
+    padding: 5%;
+    grid-column: 9/13;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+}
+
+
+#selected {
+	position: absolute;
+	top: 550px;
+	left: 300px;
+	border: 1px solid #999;
+	background-color: #abe;
+	padding: 10px;
+	font-weight: 700;
+	display: none;
+}
+
+
+
+
+form fieldset {
+    border: 3px solid #231942;
+	border-radius: 10px;
+}
+form legend {
+    color: #231942;
+}
+form label.info, form div {
+    display: block;
+    color: #231942;
+    padding: 2px;
+    font-size: 1.2rem;
+}
+form label.info input, form label.info select, form label.info textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #5E548E;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #231942;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #ecc7db; 
+}
+
+.submitBtn{
+	color: #ffc300;
+	width: 180px;
+	height: 50px;
+	background: #5E548E;
+	border-radius: 6px;
+	transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+.submitBtn:hover {
+	cursor: pointer;
+  }
+.New{
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+    grid-column: 1/13;
+    
+}
+.container-home4{
+    grid-column: 2/12;
+}

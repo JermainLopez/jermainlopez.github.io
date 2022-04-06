@@ -75,6 +75,10 @@ form label.info input, form label.info select, form label.info textarea {
     grid-column: 1/13;
     
 }
+.New:hover{
+    color: #ffc300;
+    background: #231942;
+}
 .container-home4{
     grid-column: 2/12;
 }

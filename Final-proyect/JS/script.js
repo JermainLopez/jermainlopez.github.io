@@ -7,7 +7,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 
-const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=3531673&units=imperial&appid=a22fa08f55a59807a4b7b1e71c3230eb";
+const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=3530103&units=imperial&appid=a22fa08f55a59807a4b7b1e71c3230eb";
 
 fetch(forecastApiURL)
   .then(function (response) {

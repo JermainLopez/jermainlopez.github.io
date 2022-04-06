@@ -89,3 +89,13 @@ form label.info input, form label.info select, form label.info textarea {
     font-size: 25px;
     margin-bottom: 25px;
 }
+.upcoming1 {
+    grid-column: 1/13;
+	background-color: aliceblue;
+	text-align: center;
+	padding: 3%;
+	border: 11px solid #BE95C4;
+  }
+.upcoming1:hover {
+	box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
+  }

@@ -1,0 +1,54 @@
+{
+    "cuzmel": [
+      {
+        "name": "Honda Metro Scooter",
+        "events": [
+          "February 29: Rally Championship Scooter Day.",
+          "May 1-6: Motoring Honda in Mexico",
+          "October 15-16: Scooter Rally"
+        ]
+      },
+      {
+        "name": "Honda Dio Scooter",
+ 
+        "events": [
+          "January 8: Honda Dio Endurance Championship",
+          "April 10-20: 24 Hours of Mexico Dio",
+          "July 31-Aug 15: Formula Dio and Extreme Dio"
+        ]
+      },
+      {
+        "name": "Honda PCX150 Scooter",
+        "events": [
+          "April 1:Rally Sweden",
+          "May 15-30: Rush the Creek Days",
+          "July 24: Rally Monte Cuzmel",
+          "December 12: W series in Cuzmel"
+        ]
+      },
+      {
+        "name": "Honda Pioneer ATV",
+        "events": [
+          "March 4: Bathurst 1000",
+          "September 5 - 11: 24 Hours of Day Cuzmel",
+          "December 1 - 26: Mexican Pioneer ATV"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler—4 door with a/c",
+        "events": [
+          "February 10-12: Jeep Wrangler—4 Series",
+          "May 8 - 18: Greenville Founder Days",
+          "June 20: Formula Jeep",
+          "November 15-16: Wrangler—4 Motoring"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler—2 door",
+        "events": [
+          "July 4: 24 Hours of Wrangler—2 ",
+          "October 20: Jeep Wrangler—2 Motor Show"
+        ]
+      }
+    ]
+}

@@ -8,10 +8,10 @@
         align-items: center;
     }
     #siteName #title-site{
-        font-size: none;
+        font-size: 35px;
     }
     #siteName #motto{
-        font-size: none;
+        font-size: 20px;
     }
 }
 
@@ -85,7 +85,7 @@ td {
 		margin-bottom: 0;
 	}
 	#father-box-home  .flex{
-		margin-top: -150;
+		margin-top: 0;
 		grid-column: 10/13;
 	}
 	#father-box-home .principal4{

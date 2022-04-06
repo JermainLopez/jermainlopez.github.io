@@ -220,3 +220,12 @@ table{
 iframe{
     grid-column: 8/12;
 }
+.upcoming {
+	background-color: aliceblue;
+	text-align: center;
+	padding: 3%;
+	border: 11px solid #BE95C4;
+  }
+.upcoming:hover {
+	box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
+  }

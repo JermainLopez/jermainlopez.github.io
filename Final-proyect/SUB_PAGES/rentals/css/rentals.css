@@ -68,6 +68,7 @@ form label.info input, form label.info select, form label.info textarea {
 	cursor: pointer;
   }
 .New{
+    color: #231942;
     font-size: 30px;
     text-align: center;
     height: auto;
